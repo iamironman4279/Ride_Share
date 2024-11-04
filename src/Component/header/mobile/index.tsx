@@ -21,7 +21,7 @@ const MobileHeader:React.FC = () => {
       <div className="uber py-1">
         {location.pathname ==='/' ?
          <a href="/">
-          <div className='font-sans text-2xl font-normal'>Uber</div>
+          <div className='font-sans text-2xl font-normal'>Ride Share</div>
         </a> : 
         <svg 
         className='cursor-pointer'

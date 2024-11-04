@@ -15,7 +15,8 @@ const Auth = () => {
   //const [isAuthorised, setIsAuthorised] = useState(false)
 
 
-  // useEffect(() => {
+  // useEffectgit pull origin main --rebase
+(() => {
   //    const userName = localStorage.getItem('userName');
   //     if (userName) {
   //       window.location.href = "/";

@@ -81,42 +81,11 @@ const Header:React.FC = ()=> {
       setShowMore={setShowMore}
       setShowAccount={setShowAccount}
       />
-      {showRide? <Dropdown
-        key = {1}
-        title = "Ride"
-        position = {menuPosition}
-        firstList = {{name: "Overview", link: "https://www.uber.com/ride"}}
-        secondList = {{name: "Safety", link: "https://www.uber.com/ride/safety"}}
-        thirdList = {{name: "Cities", link: "https://www.uber.com/cities"}}
-        fourthList = {{name: "Airports", link: "https://www.uber.com/airports"}}
-        fifthList = {{name: "Business", link: "https://www.uber.com/business"}}
-        setShowRide = {setShowRide}
-      />: '' }
       
-      {showDrive? <Dropdown
-        key = {2}
-        title = "Drive"
-        position = {menuPosition}
-        firstList = {{name: "Overview", link: "https://www.uber.com/drive"}}
-        secondList = {{name: "Requirements", link: "https://www.uber.com/drive/requirements"}}
-        thirdList = {{name: "Vehicle Solutions", link: "https://www.uber.com/drive/vehicle-solutions"}}
-        fourthList = {{name: "Insurance", link: "https://www.uber.com/drive/insurance"}}
-        fifthList = {{name: "Rewards", link: "https://www.uber.com/drive/rewards"}}
-        sixthList = {{name: "Delivery", link: "https://www.uber.com/drive/delivery"}}
-        setShowDrive={setShowDrive}
-      />: ''}
+      
+      
 
-      {showMore? <Dropdown
-        key = {3}
-        title = "More"
-        position = {menuPosition}
-        firstList = {{name: "Uber Eats", link: "https://www.ubereats.com/"}}
-        secondList= {{name: "Uber for Business", link: "https://www.uber.com/business"}}
-        thirdList = {{name: "Delivery", link: "https://www.uber.com/drive/delivery"}}
-        fourthList = {{name: "Uber Freight", link: "https://freight.uber.com/"}}
-        fifthList = {{name: "Uber Health", link: "https://www.uberhealth.com/"}}
-        setShowMore={setShowMore}
-      />: '' }
+      
       {showAccount? 
       <Account
       showAccount={showAccount}

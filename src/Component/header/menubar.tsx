@@ -18,37 +18,11 @@ const MenuBar: React.FC<Props> = ({setShowRide,  setShowDrive, setShowMore,  set
       <ul className="nav_left flex items-center ">
         <li className="nav_bar_logo mr-14  cursor-pointer">
           <a href="/">
-            <div className='font-sans text-2xl font-normal'>Uber</div>
+            <div className='font-sans text-2xl font-normal'>Ride Share</div>
           </a>
         </li>
-        <li className="left_nav_bar_item text-lg ">
-          <button
-            onMouseEnter={() => {setShowRide(true)
-            setShowDrive(false)
-            setShowMore(false)
-            setShowAccount(false)
-            }
-          }
-           className="ride font-san font-medium py-3">Ride</button>
-        </li>
-        <li className="  left_nav_bar_item ml-6 text-lg py-3">
-          <button 
-          onMouseEnter={() => {setShowDrive(true)
-          setShowRide(false)
-          setShowMore(false)
-          setShowAccount(false)
-          }}
-          className="drive font-medium">Drive</button>
-        </li>
-        <li className="left_nav_bar_item ml-6 text-lg">
-          <button 
-          onMouseEnter={() => {setShowMore(true)
-          setShowRide(false)
-          setShowDrive(false)
-          setShowAccount(false)
-          }}
-          className="more font-medium py-3">More</button>
-        </li>
+ 
+        
       </ul>
       <ul className="nav_right flex items-center">
         <li className="help text-lg font-medium">

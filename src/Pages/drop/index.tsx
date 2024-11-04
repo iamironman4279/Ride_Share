@@ -40,7 +40,7 @@ const Drop:React.FC = () => {
       {
         id: 2,
         carLink: "https://d1a3f4spazzrp4.cloudfront.net/car-types/haloProductImages/v1.1/Black_v1.png",
-        name: "UberX",
+        name: "Ride Share",
         extraDetails: "Affordable, everyday ride",
         duration: travelInfo ? travelInfo.duration.text : null,
         time: time? time : "loading..",
@@ -200,7 +200,7 @@ const Drop:React.FC = () => {
           alt="payment-method" src="https://tb-static.uber.com/prod/wallet/icons/stored_value_3x.png"></img>
         </div>
         <div className="details  font-medium ml-4">
-          Uber cash . Business
+          Ride Share cash . Business
         </div>
       </div>
       <button 
@@ -227,7 +227,7 @@ const Drop:React.FC = () => {
             alt="payment-method" src="https://tb-static.uber.com/prod/wallet/icons/stored_value_3x.png"></img>
           </div>
           <div className="details  font-medium ml-4">
-            Uber cash . Business
+            Ride Share cash . Business
           </div>
         </div>
         <button 
